@@ -1,0 +1,46 @@
+:root{
+  --primary : #BFDCE5;  
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 9999;
+    padding: 1.4rem 7%;
+}
+
+.navbar .navbar-menu a{
+    color: black;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+.navbar .navbar-menu a:hover{
+    color: #3E54AC;
+}
+
+.navbar .navbar-menu a::after{
+    content: '';
+    display: block;
+    border: 1px solid #3E54AC;
+}
