@@ -110,7 +110,7 @@ body{
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 30rem;
+        width: 20rem;
         height: 100vh;
         transition: 0.3s;
         background-color: var(--sec-primary);
@@ -121,7 +121,7 @@ body{
     }
 
     .navbar .navbar-menu a{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         display: block;
         margin: 1rem;
         color: #fff;
@@ -138,7 +138,7 @@ body{
         content: '';
         display: block;
         border-bottom: 1px solid var(--primary);
-        padding-bottom: 1.2rem;
+        padding-bottom: 1.1rem;
         transform-origin: 0 0;
         transition: 0.3s;
     }
